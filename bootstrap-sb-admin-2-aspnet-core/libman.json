@@ -5,11 +5,22 @@
     {
       "library": "bootstrap@4.3.1",
       "destination": "wwwroot/lib/bootstrap/"
-    },   
+    },
     {
       "provider": "cdnjs",
       "library": "datatables-colvis@1.1.2",
       "destination": "wwwroot/lib/datatables-colvis/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "font-awesome@5.11.2",
+      "destination": "wwwroot/lib/font-awesome/"
     }
-  ]
+  ,
+{
+  "provider": "cdnjs",
+  "library": "jquery-easing@1.4.1",
+  "destination": "wwwroot/lib/jquery-easing/"
+}
+]
 }

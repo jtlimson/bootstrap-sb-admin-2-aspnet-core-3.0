@@ -2,9 +2,7 @@
   {
     "outputFileName": "wwwroot/css/site.min.css",
     "inputFiles": [
-      "wwwroot/css/site.css",
-      "wwwroot/css/sb-admin.css",
-
+      "wwwroot/css/sb-admin.css"
     ],
     "minify": {
       "enabled": true,
@@ -15,14 +13,13 @@
   {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
-      //"wwwroot/lib/jquery/dist/jquery.js",
-      //"wwwroot/lib/jquery-easing/jquery.easing.js",
-      //"wwwroot/lib/jquery-validation/dist/jquery.validation.js",
-      //"wwwroot/lib/jquery-validation/dist/additional-method.js",
-      //"wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validation.unobtrusive.js",
-      //"wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      //"wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "wwwroot/js/site.js",
+      "wwwroot/lib/jquery/dist/jquery.js",
+      "wwwroot/vendor/bootstrap/js/bootstrap.bundle.js",
+      "wwwroot/vender/jquery-easing/jquery.easing.js",
+      "wwwroot/lib/jquery-validation/dist/jquery.validation.js",
+      "wwwroot/lib/jquery-validation/dist/additional-method.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validation.unobtrusive.js",
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "wwwroot/js/sb-admin.js"
     ],
     "minify": {
@@ -31,48 +28,16 @@
     },
     "sourceMap": true
   },
+
   /**
-  --------
-  font-awesome
-  --------
-  */
-  {
-    "outputFileName": "wwwroot/js/font-awesome.min.js",
-    "inputFiles": [
-      "wwwroot/lib/font-awesome/js/all.js"
-    ],
-    "minify": {
-      "enabled": true,
-      "renameLocals": true
-    },
-    "sourceMap": true
-  },
-  {
-    "outputFileName": "wwwroot/css/font-awesome.min.css",
-    "inputFiles": [
-      "wwwroot/lib/font-awesome/css/all.css"
-    ],
-    "minify": {
-      "enabled": true,
-      "renameLocals": true
-    },
-    "sourceMap": true
-  },
-  /**
-  --------
-  font-awesome
-  --------
-  */
-  /**
-  --------
-  datatables.JS
-  --------
-  */
+--------
+datatables.JS
+--------
+*/
   {
     "outputFileName": "wwwroot/js/datatables.min.js",
     "inputFiles": [
-      "wwwroot/lib/datatables/js/jquery.dataTables.js",      
-      "wwwroot/lib/jquery-easing/jquery.easing.min.js",
+      "wwwroot/lib/datatables/js/jquery.dataTables.js",
       "wwwroot/lib/datatables/js/dataTables.dataTables.js",
       "wwwroot/lib/datatables/js/dataTables.bootstrap4.js"
     ],
@@ -97,19 +62,16 @@
     "sourceMap": true
   },
   /**
-  --------
-  datatables.JS
-  --------
-  */
-  /**
-  --------
-  Chart.JS
-  --------
-  */
+--------
+datatables.JS
+--------
+*/
+
+  
   {
-    "outputFileName": "wwwroot/css/chart.min.css",
+    "outputFileName": "wwwroot/css/font-awesome.min.css",
     "inputFiles": [
-      //   "wwwroot/lib/Chart.js/Chart.css"
+      "wwwroot/lib/font-awesome/css/all.css"
     ],
     "minify": {
       "enabled": true,
@@ -118,19 +80,16 @@
     "sourceMap": true
   },
   {
-    "outputFileName": "wwwroot/js/chart.min.js",
-    "inputFiles": [
-      // "wwwroot/lib/chart/Chart.js"
+    "outputFileName": "wwwroot/js/font-awesome.min.js",
+    "inputFiles": [      
+      "wwwroot/lib/font-awesome/js/all.js"
+      
     ],
     "minify": {
       "enabled": true,
       "renameLocals": true
     },
     "sourceMap": true
-  }
-  /**
-  --------
-  Chart.JS
-  --------
-  */
+  },
+
 ]
