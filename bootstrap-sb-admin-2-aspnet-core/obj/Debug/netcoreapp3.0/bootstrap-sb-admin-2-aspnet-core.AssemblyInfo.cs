@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f83f6964-5ef5-4daa-98e5-ab04faf25d7e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("bootstrap-sb-admin-2-aspnet-core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -3,10 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>bootstrap_sb_admin_2_aspnet_core</RootNamespace>
+    <UserSecretsId>f83f6964-5ef5-4daa-98e5-ab04faf25d7e</UserSecretsId>
   </PropertyGroup>
 
-
   <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
   </ItemGroup>
 
 </Project>

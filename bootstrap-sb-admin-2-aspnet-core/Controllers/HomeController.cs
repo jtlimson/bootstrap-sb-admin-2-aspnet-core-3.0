@@ -33,5 +33,48 @@ namespace bootstrap_sb_admin_2_aspnet_core.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Buttons()
+        {
+            return View();
+        }
+
+        public IActionResult Cards()
+        {
+            return View();
+        }
+
+        public IActionResult UtilitiesColor() {
+            return View();
+        }
+
+        public IActionResult UtilitiesBorder()
+        {
+            return View();
+        }
+
+        public IActionResult UtilitiesAnimation()
+        {
+            return View();
+        }
+
+        public IActionResult UtilitiesOther()
+        {
+            return View();
+        }
+
+        public IActionResult Charts()
+        {
+            return View();
+        }
+
+
+        public IActionResult Tables()
+        {
+            return View();
+        }
+
+
+
     }
 }
