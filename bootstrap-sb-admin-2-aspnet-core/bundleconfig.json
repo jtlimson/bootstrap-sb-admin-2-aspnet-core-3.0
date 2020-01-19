@@ -11,6 +11,17 @@
     "sourceMap": true
   },
   {
+    "outputFileName": "wwwroot/css/sb-admin-2.min.css",
+    "inputFiles": [
+      "wwwroot/css/sb-admin-2.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       "wwwroot/lib/jquery/dist/jquery.js",
@@ -50,7 +61,7 @@ datatables.JS
   {
     "outputFileName": "wwwroot/css/datatable.min.css",
     "inputFiles": [
-      "wwwroot/lib/datatables/css/jquery.dataTables.css",
+      // "wwwroot/lib/datatables/css/jquery.dataTables.css", -- could break the pagination layout. it would look ugly af.
       "wwwroot/lib/datatables/css/dataTables.foundation.css",
       "wwwroot/lib/datatables/css/dataTables.dataTables.css",
       "wwwroot/lib/datatables/css/dataTables.bootstrap4.css"
@@ -67,7 +78,7 @@ datatables.JS
 --------
 */
 
-  
+
   {
     "outputFileName": "wwwroot/css/font-awesome.min.css",
     "inputFiles": [
@@ -81,15 +92,15 @@ datatables.JS
   },
   {
     "outputFileName": "wwwroot/js/font-awesome.min.js",
-    "inputFiles": [      
+    "inputFiles": [
       "wwwroot/lib/font-awesome/js/all.js"
-      
+
     ],
     "minify": {
       "enabled": true,
       "renameLocals": true
     },
     "sourceMap": true
-  },
+  }
 
 ]

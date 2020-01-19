@@ -9,7 +9,7 @@ using bootstrap_sb_admin_2_aspnet_core.Models;
 
 namespace bootstrap_sb_admin_2_aspnet_core.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
