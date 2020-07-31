@@ -1,4 +1,4 @@
-## bootstrap-sb-admin-2-aspnet-core-3.0
+## ⭐ bootstrap-sb-admin-2-aspnet-core-3.0
 
 *Bootstrap theme [sb-admin-2](https://startbootstrap.com/themes/sb-admin-2/)* template for asp.net core 
 
